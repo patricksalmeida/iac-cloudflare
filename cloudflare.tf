@@ -6,7 +6,6 @@ terraform {
       name = "iac-cloudflare"
     }
   }
-
   required_providers {
     cloudflare = {
       source  = "cloudflare/cloudflare"
