@@ -6,7 +6,7 @@ terraform {
       name = "iac-cloudflare"
     }
   }
-  
+
   required_providers {
     cloudflare = {
       source  = "cloudflare/cloudflare"
@@ -18,7 +18,7 @@ terraform {
 provider "cloudflare" {}
 
 variable "zone_id" {
-  type = string
+  type    = string
   default = "5362a9a7db74edfe9f70f554bc582470"
 }
 
